@@ -46,7 +46,7 @@
                 <pathelement location="${result.javaclasses.dir}"/>
                 <pathelement location="${result.testclasses.dir}"/>
             </classpath>
-            <formatter type="brief" usefile="false"/>
+            <formatter type="plain" usefile="false"/>
             <batchtest >
                 <fileset dir="${result.testclasses.dir}" >
                      <include name="**/*Test.class"/>

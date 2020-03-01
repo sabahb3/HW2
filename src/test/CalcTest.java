@@ -38,4 +38,5 @@ public class CalcTest {
      int b=-8;
      assertTrue(Calculater.add(a,b)<0);
 }
+	
 }
